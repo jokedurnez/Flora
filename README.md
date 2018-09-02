@@ -61,3 +61,12 @@ Some (underdeveloped) thoughts:
   - Some way of determining the location (from a fixed origin) based on history of events.
   - Some way of determining 'blockedness', i.e. with the accellerometer the robot could technically _test_ if he can go forward/backward.  Still some thoughtwork on this.
 - Loss function: Some measure of its distance (in cm) to me.  The loss function should be `abs(100 - distance)` (or square to make it differentiable) to make the robot follow me.
+
+### Spending tracker
+
+I wanted to build the robot bottom up (not packaged), because I'm addicted to learning new things, but also because I thought it would be cheaper than $100-prefab-robots on the market.  Of course, I'm totally lost in the thing.  So this is how much I've been spending on it:
+- Sunfounder starter kit: $32.19
+- Lego technic Hook Loader: $14.99
+- Lego power functions motor set: $29.99 - This was definitely a waste.  It's cheaper to buy piece by piece online and I can't seem to connect the lego motor to the breadboard.
+- New lego motor + more bricks: $36.97
+- **TOTAL:** $114.14
