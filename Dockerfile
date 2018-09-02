@@ -7,6 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV PYTHON_VERSION 3.6.0
 
 WORKDIR /root
+COPY requirements.txt /root/
 
 # Install packages necessary for compiling python
 RUN apt-get update && apt-get upgrade && apt-get install -y \
