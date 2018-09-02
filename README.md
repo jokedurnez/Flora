@@ -8,7 +8,7 @@ A very general overview of my development:
 1. I was gifted a raspberry pi from a friend.
 2. I bought a [Sunfounder Starter Kit](https://www.sunfounder.com/) to get myself going with the raspberry pi and the GPIO, up until the lesson using the motor and the fan.
 3. At that point I was ready to develop myself, and I started developing the hardware for Flora.  
-  - I bought (the cheapest lego technic) set(https://shop.lego.com/en-US/Hook-Loader-42084) on the market.  Since I hadn't touched lego in about 20 years, I build the truck to familiarise myself.  Then I redesigned the truck to be able to hold the (1) raspberry pi, (2) the solderless breadboard from the starter kit, (3) a USB-power bank to power the raspberry pi.
+  - I bought [the cheapest lego technic) set](https://shop.lego.com/en-US/Hook-Loader-42084) on the market.  Since I hadn't touched lego in about 20 years, I build the truck to familiarise myself.  Then I redesigned the truck to be able to hold the (1) raspberry pi, (2) the solderless breadboard from the starter kit, (3) a USB-power bank to power the raspberry pi.
 
   - First I tried making the truck drive with the motor from the starter kit, but this was not powerful enough.  It would also require me to add an external battery (the one from the kit is wired).
 
