@@ -53,10 +53,21 @@ def led_random():
         previous = id
     return jsonify({"response": 0})
 
+@app.route('/api/led/range',methods=['GET'])
+def led_range():
+    row = (range(1,9)+range(1,9)[::-1])*5
+    for k,id in enumerate(row):
+        if k != 0:
+            led_off(previous)
+        led_on(id)
+        time.sleep(0.1)
+        previous = id
+    return jsonify({"response": 0})
+
 @app.route('/api/cleanup',methods=['GET'])
 def cleanup():
     for led,pin in pins['output'].items():
         GPIO.output(pin['pin'], GPIO.HIGH)
-    GPIO.setup(pins['input']['button']['pin'], GPIO.IN, pull_up_down=GPIO.PUD_UP)
+    # GPIO.setup(pins['input']['button']['pin'], GPIO.IN, pull_up_down=GPIO.PUD_UP)
     GPIO.cleanup()
     return jsonify({"response": 0})
