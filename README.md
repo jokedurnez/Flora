@@ -4,7 +4,7 @@ I'm trying to make a pet robot.  I called her Flora, after [Florence Nightingale
 
 My robot version of her is clearly not as impressive, but at least she looks happy:
 
-![alt text](media/phase3c_growingup.jpg)
+![](media/phase3c_growingup.jpg | width=100)
 
 
 ### Hardware
