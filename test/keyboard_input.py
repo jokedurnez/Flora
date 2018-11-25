@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import sys
+sys.path.append(os.abspath("../app/"))
 from flora import motor, poller
 import RPi.GPIO as GPIO
 import time
