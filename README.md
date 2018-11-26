@@ -27,7 +27,7 @@ There's also a page with navigator buttons that can be used as a remote control 
 
 To start the server  on the raspberry pi:
 
-    uwsgi --ini flora.ini --chdir /home/pi/flora/api
+    uwsgi --ini flora.ini --chdir /home/pi/flora/app
 
 When the raspberry pi is running on eg. IP 192.168.0.15, you can for example steer the robot forward:
 
