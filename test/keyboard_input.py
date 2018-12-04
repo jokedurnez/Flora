@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append(os.abspath("../app/"))
+import os
+sys.path.append(os.path.abspath("../app/"))
 from flora import motor, poller
 import RPi.GPIO as GPIO
 import time
@@ -22,6 +23,8 @@ def run_flora():
             if key in keydict.keys():
                 print(key)
                 motor.action(keydict[key])
+            else:
+                print("Key unknown: %s"%key)
 
 # while 1:
 #     for dc in range(0, 101, 5):

@@ -6,24 +6,13 @@
   </head>
 <body>
 
-  <div class="jumbotron">
-    <div class="welcome">
-      <div class="row">
-        <div class="col-m" align="center">
-          <h2><center>Flora</center></h2>
-          <center><img src="{{ url_for('static', filename='img/headshot.jpg') }}" style="width:300px;"></center>
-        </div>
-      </div>
-    </div>
-  </div>
-
 <div class="container">
 
   <div class="row">
     <div class="col-sm">
     </div>
     <div class="col-sm">
-        <a href="/api/forward"><center><button type="button"
+        <a href="/api/move/forward"><center><button type="button"
           class="btn btn-warning">Forward</button></center></a>
     </div>
     <div class="col-sm">
@@ -32,15 +21,15 @@
 
   <div class="row">
     <div class="col-sm">
-      <a href="/api/left"><center><button type="button"
+      <a href="/api/move/left"><center><button type="button"
         class="btn btn-warning">Left</button></center></a>
     </div>
     <div class="col-sm">
-        <a href="/api/stop"><center><button type="button"
+        <a href="/api/move/stop"><center><button type="button"
           class="btn btn-warning">Stop</button></center></a>
     </div>
     <div class="col-sm">
-      <a href="/api/right"><center><button type="button"
+      <a href="/api/move/right"><center><button type="button"
         class="btn btn-warning">Right</button><c/enter></a>
     </div>
   </div>
@@ -49,8 +38,19 @@
     <div class="col-sm">
     </div>
     <div class="col-sm">
-        <a href="/api/backward"><center><button type="button"
+        <a href="/api/move/backward"><center><button type="button"
           class="btn btn-warning">Backward</button></center></a>
+    </div>
+    <div class="col-sm">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+    </div>
+    <div class="col-sm">
+        <a href="/api/move/reset"><center><button type="button"
+          class="btn btn-alert">Reset</button></center></a>
     </div>
     <div class="col-sm">
     </div>

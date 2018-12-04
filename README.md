@@ -20,6 +20,8 @@ A very general overview of my development:
 
 6. I watched some videos about electricity and motors, and I serialised two 9V batteries to sum to 18V to sufficiently power the robot.
 
+7. I bought smaller breadboard to have more flexibility building the robot and make the whole more modular.  I bought a camera and added the accelerometer from the Sunfounder Starter Kit to the mix.
+
 ### Software: backend and frontend
 
 I developed a flask app to provide an API to remotely steer the robot.
@@ -46,9 +48,11 @@ Some (underdeveloped) thoughts:
 
 ### Spending tracker
 
-I wanted to build the robot bottom up (not packaged), because I'm addicted to learning new things, but also because I thought it would be cheaper than $100-prefab-robots on the market.  Of course, I'm totally lost in the thing.  So this is how much I've been spending on it:
+This is how much I've been spending on Flora:
 - Sunfounder starter kit: $32.19
 - Lego technic Hook Loader: $14.99
+- Lego bricks: $8.99 (--> in the store you can fill a small plastic box for cheap, and they don't give you the stinkeye if you engineer it to hold the absolute max number of bricks)
 - Lego power functions motor set: $29.99 - This was definitely a waste.  It's cheaper to buy piece by piece online, and you probably want to add a few extra cables to connect to the breadboard.
 - New lego motor + more bricks: $36.97
-- **TOTAL:** $114.14
+- Camera + more breadboards and cables: $25.96
+- **TOTAL:** $149.09

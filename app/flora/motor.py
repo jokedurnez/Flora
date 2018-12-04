@@ -4,14 +4,14 @@ import time
 
 pins = {
     "drive": {
-        1: 13,
-        2: 11,
-        "c": 7
+        2: 12,
+        1: 16,
+        "c": 18
         },
     "direction": {
-        1: 22,
-        2: 18,
-        "c": 16
+        1: 19,
+        2: 21,
+        "c": 23
     }
 }
 
@@ -65,7 +65,6 @@ def setup():
         GPIO.setup(pin, GPIO.OUT)
     for controlpin in controlpins:
         GPIO.output(controlpin, GPIO.LOW)
-
 
 def loop():
     while True:
