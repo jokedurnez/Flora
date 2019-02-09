@@ -1,60 +1,70 @@
+
 <html>
   <head>
     <title>Flora app</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/custom.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+     <!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'> -->
   </head>
 <body>
 
 <div class="container">
 
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm-2">
     </div>
-    <div class="col-sm">
+    <div class="col-sm-2">
         <a href="/api/move/forward"><center><button type="button"
-          class="btn btn-warning">Forward</button></center></a>
+          class="btn btn-default">Forward</button></center></a>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-2">
     </div>
   </div>
 
+  <br>
+
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm-2">
       <a href="/api/move/left"><center><button type="button"
-        class="btn btn-warning">Left</button></center></a>
+        class="btn btn-default">Left</button></center></a>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-2">
         <a href="/api/move/stop"><center><button type="button"
-          class="btn btn-warning">Stop</button></center></a>
+          class="btn btn-default">Stop</button></center></a>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-2">
       <a href="/api/move/right"><center><button type="button"
-        class="btn btn-warning">Right</button><c/enter></a>
+        class="btn btn-default">Right</button><c/enter></a>
     </div>
   </div>
 
+  <br>
+
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm-2">
     </div>
-    <div class="col-sm">
+    <div class="col-sm-2">
         <a href="/api/move/backward"><center><button type="button"
-          class="btn btn-warning">Backward</button></center></a>
+          class="btn btn-default">Backward</button></center></a>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-2">
     </div>
   </div>
 
+  <br>
+
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm-2">
     </div>
-    <div class="col-sm">
+    <div class="col-sm-2">
         <a href="/api/move/reset"><center><button type="button"
-          class="btn btn-alert">Reset</button></center></a>
+          class="btn btn-warning">Reset</button></center></a>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-2">
     </div>
   </div>
+
 
 
 </div>
